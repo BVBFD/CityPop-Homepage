@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Pop Home Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- header part starts -->
+    <header class="header">
+      <div class="logo">
+        <a href="#home">city pop</a>
+      </div>
+
+      <nav>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#singers">singers</a>
+        <a href="#player">player</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </header>
+    <!-- header part ends -->
+
+    <!-- home part starts -->
+    <section class="home" id="home">
+      <div class="heading">
+        <!-- <h1>City Pop</h1> -->
+        <span>C</span>
+        <span>i</span>
+        <span>t</span>
+        <span>y</span>
+        <span>-</span>
+        <span>P</span>
+        <span>o</span>
+        <span>p</span>
+      </div>
+    </section>
+    <!-- home part ends -->
+
+    <!-- about part starts -->
+    <section class="about" id="about">
+      <div class="heading">
+        <h3>about <span>city pop</span></h3>
+      </div>
+
+      <div class="introBox">
+        <div class="imgBox">
+          <img src="./images/aboutCityPop.png" alt="" />
+        </div>
+        <div class="explainBox">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+            consectetur quasi quia eum esse sequi debitis alias illum laudantium
+            deleniti, ratione totam adipisci molestiae necessitatibus error.
+            Libero officiis totam quae!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about part ends -->
+    <!-- singers part starts -->
+    <section class="singers" id="singers">
+      <div class="heading">
+        <h3>city pop <span>singers</span></h3>
+      </div>
+
+      <div class="introBox">
+        <div class="singerIntroBox">
+          <div class="singerImgBox">
+            <img src="./images/Junko Ohashi.png" alt="" />
+          </div>
+          <div class="singerExplainBox">
+            <h3>Junko Ohashi</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
+              laborum error iusto cumque beatae? Maiores asperiores nam pariatur
+              dolore neque adipisci numquam voluptates earum. Dicta illo fugit
+              tempore quas sed?
+            </p>
+          </div>
+        </div>
+
+        <div class="singerIntroBox">
+          <div class="singerImgBox">
+            <img src="./images/Anri.png" alt="" />
+          </div>
+          <div class="singerExplainBox">
+            <h3>Anri</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
+              laborum error iusto cumque beatae? Maiores asperiores nam pariatur
+              dolore neque adipisci numquam voluptates earum. Dicta illo fugit
+              tempore quas sed?
+            </p>
+          </div>
+        </div>
+
+        <div class="singerIntroBox">
+          <div class="singerImgBox">
+            <img src="./images/Takeuchi Mariya.png" alt="" />
+          </div>
+          <div class="singerExplainBox">
+            <h3>Takeuchi Mariya</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
+              laborum error iusto cumque beatae? Maiores asperiores nam pariatur
+              dolore neque adipisci numquam voluptates earum. Dicta illo fugit
+              tempore quas sed?
+            </p>
+          </div>
+        </div>
+
+        <div class="singerIntroBox">
+          <div class="singerImgBox">
+            <img src="./images/Yoko Oginome.png" alt="" />
+          </div>
+          <div class="singerExplainBox">
+            <h3>Yoko Oginome</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
+              laborum error iusto cumque beatae? Maiores asperiores nam pariatur
+              dolore neque adipisci numquam voluptates earum. Dicta illo fugit
+              tempore quas sed?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- singers part ends -->
+    <!-- player part starts -->
+    <section class="player" id="player">
+      <div class="heading">
+        <h3>player</h3>
+      </div>
+
+      <div class="musicBox">
+        <div class="picVolumeBox">
+          <div>
+            <i class="fa fa-music"></i>
+            <span>Music</span>
+          </div>
+          <div class="picBox">
+            <img id="musicImg" src="./images/Takeuchi Mariya.png" alt="" />
+          </div>
+          <div class="volumeBox">
+            <p id="volume_show">90</p>
+            <i
+              class="fa fa-volume-up"
+              id="volume_icon"
+              onclick="volumeOnOffBtn()"
+            ></i>
+            <input
+              onchange="changeVolume();"
+              type="range"
+              min="0"
+              max="100"
+              value="90"
+              id="volume"
+            />
+          </div>
+        </div>
+
+        <div class="titleButtonRangeBox">
+          <div class="orderBox">
+            <span id="present">1</span>
+            <span>/</span>
+            <span id="total">5</span>
+          </div>
+
+          <div class="titleSingerBox">
+            <span id="musicTitle">First Song</span>
+            <span id="musicSinger">Singer</span>
+          </div>
+
+          <div class="buttonBox">
+            <button id="previousSong" onclick="previousSong();">
+              <i class="fa fa-step-backward"></i>
+            </button>
+            <button id="playSong" onclick="justPlay();">
+              <i class="fa fa-play"></i>
+            </button>
+            <button id="nextSong" onclick="nextSong();">
+              <i class="fa fa-step-forward"></i>
+            </button>
+          </div>
+
+          <div class="autoPlayBox">
+            <button id="autoPlay" onclick="autoPlaySong();">
+              Auto play <i class="fas fa-circle-notch"></i>
+            </button>
+          </div>
+
+          <div class="duration">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="0"
+              id="durationSlider"
+              onchange="changeDuration();"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- player part ends -->
+  </body>
+</html>
