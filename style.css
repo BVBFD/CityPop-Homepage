@@ -618,3 +618,115 @@ input[type="range"]::-webkit-slider-thumb {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
+
+.contact {
+  background: url(./images/bg5.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .contactBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact .contactBox form {
+  flex: 1 1 25rem;
+}
+
+.contact .contactBox form .box {
+  padding: 2rem 0;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  border-bottom: 0.2rem solid var(--lightGreen);
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px var(--lightGreen), 0 0 40px var(--lightGreen);
+  color: var(--white);
+}
+
+.contact .contactBox form .box:focus {
+  border-color: var(--lightGreen);
+}
+
+.contact .contactBox form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .contactBox form .btn {
+  display: inline-block;
+  border-radius: 5rem;
+  padding: 1.2rem 3rem;
+  border: 0.2rem solid var(--lightGreen);
+  cursor: pointer;
+  background: var(--white);
+  color: var(--black);
+  font-weight: bolder;
+  box-shadow: 0 0 20px var(--lightGreen), 0 0 40px var(--lightGreen);
+}
+
+.contact .contactBox .qestionsBox {
+  flex: 1 1 25rem;
+  color: var(--white);
+  text-shadow: 0 0 10px var(--lightGreen), 0 0 40px var(--lightGreen);
+  margin-left: 3rem;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 0 2rem;
+}
+
+.contact .contactBox .qestionsBox h3 {
+  padding-bottom: 1rem;
+  font-size: 5rem;
+}
+
+.contact .contactBox .qestionsBox .graph {
+  font-size: 2rem;
+  color: var(--white);
+  line-height: 2;
+  padding: 0.5rem 0;
+}
+
+.contact .contactBox .qestionsBox .icons {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.contact .contactBox .qestionsBox .icons i {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  border-radius: 50%;
+  background: var(--white);
+  color: var(--lightBlue);
+  margin-right: 2rem;
+}
+
+.contact .contactBox .qestionsBox .icons p {
+  font-size: 1.5rem;
+  text-transform: none;
+}
+
+.contact .contactBox .qestionsBox .share {
+  padding-top: 0.5rem;
+  background: transparent;
+}
+
+.contact .contactBox .qestionsBox .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 3rem;
+  margin-right: 2rem;
+  color: var(--white);
+  text-shadow: 0 0 20px var(--lightGreen), 0 0 40px var(--lightGreen);
+}
