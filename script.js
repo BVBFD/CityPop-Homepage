@@ -34,37 +34,37 @@ let allSong = [
   {
     name: "Plastic Love",
     path: "music/타케우치 마리야 - Plastic Love.mp3",
-    img: "images/Takeuchi Mariya.png",
+    img: "images/Takeuchi Mariya.jpg",
     singer: "Takeuchi Mariya",
   },
   {
     name: "Bring me to the dance night",
     path: "music/bring me to the dance night - Anri.mp3",
-    img: "images/Anri.png",
+    img: "images/Anri.jpg",
     singer: "Anri",
   },
   {
     name: "gone with the sadness",
     path: "music/gone with the sadness - anri.mp3",
-    img: "images/Anri.png",
+    img: "images/Anri.jpg",
     singer: "Anri",
   },
   {
     name: "Last-Summer-Whisper",
     path: "music/Last-Summer-Whisper Anri.mp3",
-    img: "images/Anri.png",
+    img: "images/Anri.jpg",
     singer: "Anri",
   },
   {
     name: "Sweet Love",
     path: "music/Sweet Love-Junko Ohashi.mp3",
-    img: "images/Junko Ohashi.png",
+    img: "images/Junko Ohashi.jpg",
     singer: "Junko Ohashi",
   },
   {
     name: "Eat You Up",
     path: "music/Yoko Oginome - Eat You Up (Disco Version}.mp3",
-    img: "images/Yoko Oginome.png",
+    img: "images/Yoko Oginome.jpg",
     singer: "Yoko Oginome",
   },
 ];
